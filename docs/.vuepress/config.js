@@ -131,6 +131,18 @@ module.exports = {
         { text: translate('page-developers', 'ko-KR'), link: '/ko/developers/' }
       ]
     },
+    '/ru/': {
+      lang: 'ru-RU',
+      label: translate('name', 'ru-RU'),
+      title: translate('ethereum', 'ru-RU'),
+      nav: [
+        { text: translate('page-home', 'ru-RU'), link: '/ru/' },
+        { text: translate('page-beginners', 'ru-RU'), link: '/ru/beginners/' },
+        { text: translate('page-use', 'ru-RU'), link: '/ru/use/' },
+        { text: translate('page-learn', 'ru-RU'), link: '/ru/learn/' },
+        { text: translate('page-developers', 'ru-RU'), link: '/ru/developers/' }
+      ]
+    },
     '/zh/': {
       lang: 'zh-CN',
       label: translate('name', 'zh-CN'),
